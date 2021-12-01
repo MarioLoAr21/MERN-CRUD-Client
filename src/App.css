@@ -1,0 +1,102 @@
+.App
+{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.inputs
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+}
+
+.input input
+{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.inputs button
+{
+    border: none;
+    width: 150 px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 7);
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+.ListOfFriends
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.FriendContainer
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Friend
+{
+    width: 500px;
+    height: 80px;
+    background-color: salmon;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+
+.Friend h3
+{
+    margin-left: 15px;
+}
+
+.FriendContainer button
+{
+    width: 90px;
+    height: 80px;
+    border: 2px solid rgba(0, 0,0,7);
+    background-color: seagreen;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#removeBtn
+{
+    border-left:none;
+    background-color: tomato;
+}
+
+#updateBtn
+{
+    background-color: royalblue;
+}
